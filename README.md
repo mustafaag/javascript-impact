@@ -20,20 +20,20 @@ Ketu do te jene leksionet dhe ushtrimet qe punohen ne klasen e JavaScriptit.
 ##### Operatoret
 - +-*/ %
 ##### Alert / console.log if
-## Ciklet
+### Ciklet
 - Cfare jane ciklet 
 - Ku perdoren
 - Sa lloje ciklesh kemi 
     * for 
     * while
     * do while 
-## Funksionet
+### Funksionet
 - Cfare jane funksionet
 - Si perdoren?
 - Ku perdoren?
 - Parametrat e funksionit
 - Kthimi i funksionit
-## DOM.
+### DOM.
 - Cfare eshte dom (Document Object Model)
 - Metodat qe perdoren: 
     * document.getElementById();
