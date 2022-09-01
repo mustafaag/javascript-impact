@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <script src="./main.js"></script>
+        <style>
+            li#nxenesit {
+                list-style-type: none;
+            }
+            .li-nxenes ul {
+                list-style: none;
+                list-style-type: none;
+            }
+            ul span {
+                padding-left: 10px;
+                width: 100px;
+            }
+            .li-name { 
+               width: 100px;
+            }
+
+            .red {
+                background-color: red;
+                color:white;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container" class="cont">
+            <h2>Student list</h2>
+            <li id="nxenesit" class="li-nxenes">
+                <ul>
+                    <span class="li-name">Name </span>
+                    <span class="li-age"> Age </span>
+                    <span class="li-avg">Average</span>
+                </ul>
+            </li>
+            <div>
+                <input type="text" id="name" name="name" />
+                <input type="number"  id="age" name="age" />
+                <input type="number" id="avg" name="avg" />
+                <input type="button" onclick="addOnList()" value="shto" />
+            </div>
+        </div>
+    </body>
+ </html>
