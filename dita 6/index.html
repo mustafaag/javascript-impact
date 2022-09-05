@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="main.js"></script>
+        <style>
+            .container {
+                width: 500px;
+                height: 500px;
+                background-color: bisque;
+            }
+
+            span {
+                display: block;
+                border-bottom: 1px solid white;
+            }
+            .red { 
+                color: red;
+            }
+            .green {
+                color: darkgreen;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="qytetet" class="container"></div>
+        <div class="add-city-cont">
+            <input type="text" id="qyteti" onkeyup="keyUpHandler(event)" placeholder="vendos emrin e qyetit" />
+            <button onclick="addCity()">Shto qytet</button>
+        </div>   
+        <div id="message">         
+        </div>     
+    </body>
+</html>
