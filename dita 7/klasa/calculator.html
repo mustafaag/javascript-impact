@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Calculator</title>
+
+</head>
+<body>
+
+  <label>Numri ne katror:
+    <input type="number" id="square-input" onkeyup="nrNeKatror()" size="2">
+  </label>
+  <button id="square-button" onclick="nrNeKatror()" >Llogarit</button>
+  <br><br>
+  
+  <label>Pergjysmoje kete numer:
+    <input type="number" id="half-input" onkeyup="pergjysmim()" size="2">
+  </label>
+  <button id="half-button" onclick="pergjysmim()">Llogarit</button>
+  <br><br>
+  
+  <label>
+    Perqindje:
+    <input type="number" id="percent1-input" size="2">
+  </label>
+  <label>
+    Total:
+    <input type="number" id="percent2-input" onkeyup="perqindje()" size="2">
+  </label>
+  <button id="percent-button" onclick="perqindje()">Llogarit</button>
+  <br><br>
+  
+  <label>Llogarit siperfaqen e rrethit me radius:
+    <input type="number" id="area-input" size="2" onchange="siperFaqjaERrethit()" placeholder="radius">
+  </label>
+  <button id="area-button" onclick="siperFaqjaERrethit()">Llogarit</button> 
+  <br><br>
+  <div id="solution"></div>
+
+  
+</body>
+<script src="main.js"></script>
+</html>
