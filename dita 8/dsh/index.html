@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .cont {
+                cursor: pointer;
+                background-color: bisque;
+                border: 1px solid black;
+                width: 2rem;
+                height: 1.5rem;
+                text-align: center;
+                align-items: center;
+                padding-top: .5rem;
+            }
+
+            .data {
+                border: 1px solid green;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="data" class="data"></div>
+        <a href="https://www.google.com/" onclick="stopRedirect(event)">Google</a>
+        <div class="cont" id="count-click"></div>
+        <div class="cont" id="result">0</div>
+
+    </body>
+    <script src="./main.js"></script>
+</html>
