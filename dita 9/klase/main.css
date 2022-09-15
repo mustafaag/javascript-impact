@@ -1,0 +1,16 @@
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #animate {
+    width: auto;
+    height: 50px;
+    color:white;
+    background: black;
+    font-size: 12px;
+  }
