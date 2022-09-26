@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="./create-new.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./create-new.html">Create new</a>
+                </li>
+                <li class="nav-item">
+                  <span class="nav-link " href="#">Refresh</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="container">
+            <form id="userForm">
+                <div class="form-group">
+                  <label for="fname">First Name</label>
+                  <input type="text" name="fname" class="form-control" id="fname" aria-describedby="firstName" placeholder="Enter First Name">
+                  <small id="firstName" class="form-text text-muted">Your data are secured</small>
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" class="form-control" id="lname" aria-describedby="lastName" placeholder="Enter Last Name">
+                    <small id="lastName" class="form-text text-muted">Your data are secured</small>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" class="form-control" id="age" aria-describedby="age" placeholder="Enter your age">
+                    <small id="age" class="form-text text-muted">Your data are secured</small>
+                </div>
+                <div class="form-group">
+                    <select class="form-select" name="gender" id="genderSelect" aria-label="Default select example">
+                        <option selected>Select </option>
+                        <option value="F">F</option>
+                        <option value="M">M</option>
+                        <option value="other">other</option>
+                      </select>
+                </div>
+                  
+
+                <button type="s ubmit" class="btn btn-primary" onclick="storeUser(event)">Submit</button>
+              </form>
+
+              <div id="errorMessage" class="alert alert-danger d-none" role="alert">
+                Error message
+              </div>
+
+          </div>
+
+    </body>
+</html>
